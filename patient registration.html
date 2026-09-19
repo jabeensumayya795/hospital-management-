@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Hospital Management</h1>
+    <div class="container">
+        <h2>Patient Registration</h2>
+        <section>
+        <form>
+           <p>Full Name:<input type="text"placeholder=" Enter Full Name"></p>
+           <p>Age:<input type="number"placeholder="Enter Age"></p>
+           <label>Gender: </label>
+           <input type="radio"name="gender"id="male">
+           <lablel for="male">Male</lablel>
+           <input type="radio"name="gender"id="female">
+           <label for="female">Female</label>
+           <p>Phone Number:<input type="tel"placeholder="Enter Phone Number"></p>
+           <p>Email:<input type="email"placeholder="Enter Email"></p>
+           <p>Address:<textarea placeholder="Enter address"></textarea></p>
+           <p>Disease:<input type="text" placeholder="Disease"></p>
+        </form>
+        
+    </section>
+    <p>Blood Group:
+        <Select>
+            <option>Select Blood Group</option>
+            <option>A+</option>
+            <option>A-</option>
+            <option>B+</option>
+            <option>B-</option>
+            <option>o+</option>
+            <option>o-</option>
+            <option>AB+</option>
+            <option>AB-</option>
+        </Select>
+    </p>
+    <p>Doctor:
+        <select>
+            <option>Select Doctor</option>
+            <option>Dr.Ahmed</option>
+            <option>Dr.Khan</option>
+            <option>Dr.Ali</option>
+        </select>
+    </p>
+    <p>Appointment Date:
+    <input type="date">
+    </p>
+    <button>Ragister patient</button>
+    <button>Reset</button>
+    </div>
+    <footer>&copy;2026 Hospital Management</footer>
+</body>
+</html>

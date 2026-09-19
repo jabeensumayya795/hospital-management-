@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Hospital Management</h1>
+    <nav>
+        Home
+        Patients
+        Doctors
+        Appointment
+        Billing
+        Contact
+    </nav>
+    <section>
+        <h2>Appointment form</h2>
+        <p>
+            Patient Name:
+            <input type="text"placeholder="Enter Patient Name"><br>
+            Patient ID:
+            <input type="text"placeholder="Enter patient ID"><br>
+            Doctor Name:
+            <input type="text"placeholder="Enter Doctor Name"><br>
+            Department:
+            <input type="text" placeholder="Enter Department"><br>
+            Appointment Date:
+            <input type="date"placeholder="Enter Date"><br>
+            Appointment Time:
+            <input type="time"placeholder="Enter time"><br>
+            Reason For visit:
+            <input type="text" placeholder="Enter reason for visit"><br>
+            Contact Number:
+            <input type="tel" placeholder="Enter contact number">
+        </p>
+        <button>Book Appointment</button>
+        <button>Reset</button>
+    </section>
+    <section>
+        <p>Today's Appointment</p>
+        <table border="1">
+            <tr>
+                <th>Patient Name</th>
+                <th>Doctor</th>
+                <th>Date</th>
+                <th>Time</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>Ahmed</td>
+                <td>Dr.Ali</td>
+                <td>08/08/2026</td>
+                <td>10:00 AM</td>
+                <td>Confirmed</td>
+            </tr>
+
+            <tr>
+                <td>Sara</td>
+                <td>Dr.Khan</td>
+                <td>08/08/2026</td>
+                <td>11:30 AM</td>
+                <td>Pending</td>
+            </tr>
+            <tr>
+                <td>Ayesha</td>
+                <td>Dr.Ahmed</td>
+                <td>08/08/2026</td>
+                <td>2:00 PM</td>
+                <td>Completed</td>
+            </tr>
+        </table>
+    </section>
+    <footer>&copy;2026 Hospital Management</footer>
+</body>
+</html>
